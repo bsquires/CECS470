@@ -1,0 +1,113 @@
+
+h1{
+    font-family: arial, sans-serif;
+    text-align: center;
+}
+header{
+    border-bottom: solid blue 1px;
+    border-radius: 2em 2em 0 0;
+    background-color: aliceblue;
+    text-align: center;
+}
+body h1{
+    border-bottom: solid blue 1px;
+    color: dodgerblue;
+    font-size: 150%;
+    margin: .25em;
+}
+header h1{
+    display: inline-block;
+    border-bottom: none;
+    text-align: center;
+    color: deepskyblue;
+    font-size: 200%;
+}
+body
+{
+    border-radius: 2em;
+    margin: auto;
+    width: 80%;
+    border: solid blue 1px;
+}
+section
+{
+    border-top: solid blue 1px;
+    border-bottom: solid blue 1px;
+    padding: 1em;
+    background-color: aliceblue;
+}
+img
+{
+    border: solid .5em brown;
+    border-radius: 1em;
+}
+p{
+    border: solid blue 1px;
+    background-color: white;
+    font-family: Arial, verdana;
+    line-height: 150%;
+    margin: 1em;
+    padding: 1em;
+}
+#surfing>q
+{
+    text-decoration: underline;
+}
+q{
+    background-color: white;
+    font-family: "Open Sans";
+    font-style: italic;
+}
+nav li{
+    width: 20em;
+    font-weight: bold;
+    list-style-type: none;
+    border: solid black 1px;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    margin: 0;
+    width: 100%;
+    padding-top: .25em;
+    padding-bottom: .25em;
+}
+nav a:link{
+    color: blue;
+    background-color: white;
+}
+nav a:visited{
+    color: red;
+    background-color: white;
+}
+nav a:active{
+    text-decoration: underline;
+}
+nav a:hover{
+    color: white;
+    background-color: blue;
+}
+figure
+{
+    margin-bottom: 1em;
+    text-align: center;
+}
+footer
+{
+    text-align: center;
+}
+#shooting-pool ul
+{
+    margin-top: .25em;
+    margin-left: 1em;
+    background-color: white;
+    width: 25em;
+    border: solid 1px black;
+}
+#shooting-pool li
+{
+    font-family: Arial, verdana;
+    margin: .5em;
+    padding-left: 2em;
+    list-style-type: none;
+}
